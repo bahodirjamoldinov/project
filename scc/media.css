@@ -53,9 +53,14 @@ header nav .a1:hover{
     color: #1D2130;
     transition: .7s;
 } */
+section{
+    max-width: 1535px;
+}
 .pro{
     display: flex;
     padding: 160px 110px;
+    max-width: 1535px;
+    margin: 0 auto;
     background-image: url(../image/media/BGar.png);
 }
 .line{
@@ -164,6 +169,8 @@ header nav .a1:hover{
 }
 .col25{
     padding-top: 96px;
+    max-width: 1535px;
+    margin: 0 auto;
 }
 .col25 h1{
     /* H1 */
@@ -230,6 +237,8 @@ header nav .a1:hover{
 }
 .event{
     margin-top: 96px;
+    margin: 0 auto;
+    max-width: 1535px;
     padding-left: 110px;
 }
 .headevent{
@@ -312,6 +321,8 @@ header nav .a1:hover{
     display: flex;
     gap: 24px;
     margin: 8px;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 .say h3{
     /* H3 */
@@ -328,6 +339,8 @@ header nav .a1:hover{
 footer {
     transform: translateY(80px);
     background-color: black;
+    max-width: 1535px;
+    margin: 0 auto;
   
   }
   
@@ -421,9 +434,15 @@ footer {
     text-align: center;
     color: #1D2130;
   }
+  section{
+    margin: 0 auto;
+    max-width: 1535px;
+  }
   main{
-    width: 1500px;
-    padding: 156px 238px;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 156px 0 0 238px !important;
+    border: 1px solid red;
   }
 .hmain{
     display: flex;
@@ -527,14 +546,15 @@ main .imgmain{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px%;
+    line-height: 26px;
     color: #525560;
     margin-top: 16px;
 }
 .fragman{
     padding: 96px 240px;
     height: 436px;
-    width: 1535px;
+    max-width: 1535px;
+    margin: 0 auto;
     background-image: url(../image/media/22.png);
     display: flex;
     flex-wrap: wrap;
@@ -569,4 +589,6 @@ main .imgmain{
     color: #525560;
     margin-top: 8px;
     margin-left: 60px;
+}
+.missioncards{
 }

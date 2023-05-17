@@ -352,6 +352,7 @@ main {
 
 .logo {
   margin-top: 32px;
+  margin-bottom: 32px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -372,6 +373,161 @@ main {
   margin-top: 96px;
   margin-bottom: 96px;
 }
+
+.cardd {
+  margin-top: 65px;
+  display: flex;
+  /* gap: 10px; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+
+}
+
+.cards {
+  width: 400px;
+  height: 421px;
+  margin-top: 65px;
+  background-color: black;
+  opacity: 0.8;
+  /* border-radius: 12px; */
+}
+
+
+
+.card1 {
+  background-image: url("../image/Image (2).png");
+  width: 400px;
+  height: 421px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card1 .text {
+  padding-top: 80px;
+  margin-left: 48px;
+}
+
+.card2 {
+  background-image: url("../image/Image (3).png");
+  width: 400px;
+  height: 421px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card2 .text {
+  padding-top: 80px;
+  margin-left: 48px;
+}
+
+.card3 {
+  background-image: url("../image/Image (4).png");
+  width: 400px;
+  height: 421px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card3 .text {
+  padding-top: 80px;
+  margin-left: 48px;
+}
+
+.text h1 {
+  max-width: 315px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.text p {
+  margin-top: 16px;
+  max-width: 315px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+}
+
+.text .bt-car {
+  margin-top: 64px;
+  width: 132px;
+  height: 51px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1D2130;
+  background: #FFFFFF;
+  backdrop-filter: blur(40px);
+  border-radius: 4px;
+}
+
+
+
+
+.im1 {
+  margin-top: 142px;
+  margin-bottom: 142px;
+}
+
+.im2 {
+  margin-top: 96px;
+}
+
+/* .ras {
+  width: 1280px;
+  height: 384px;
+  background-color: black;
+  opacity: 0.5;
+  border-radius: 12px;
+} */
+
+.you-ras {
+  margin-top: 96px;
+  margin-bottom: 96px;
+
+  background-image: url("../image/Image (5).png");
+  /* width: 400px; */
+  height: 384px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  opacity: 0.5;
+  border-radius: 12px;
+}
+
+.bolim {
+  padding-top: 90px;
+  display: flex;
+  justify-content: center;
+  /* flex-wrap:wrap; */
+}
+
+.bolim .text {
+  /* margin-left: 324px; */
+  max-width: 631px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+} 
+
+.bttn {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
 
 
 
